@@ -188,13 +188,6 @@ This KPI system is ideal for:
 - **Streamlit** - Dashboard interface (optional)
 - **PostgreSQL/MySQL** - Database backend (production)
 
-## 📚 Documentation
-
-- [KPI Definitions](docs/kpi_definitions.md) - Detailed explanation of each metric
-- [Methodology](docs/methodology.md) - Statistical approach and validation
-- [API Reference](docs/api_reference.md) - Code documentation
-- [User Guide](docs/user_guide.md) - Step-by-step usage instructions
-
 ## 🤝 Contributing
 
 This is a professional portfolio project. While it's not open for direct contributions, feedback and suggestions are welcome through issues.
