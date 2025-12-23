@@ -199,16 +199,6 @@ This KPI system is ideal for:
 
 This is a professional portfolio project. While it's not open for direct contributions, feedback and suggestions are welcome through issues.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👤 Author
-
-**Néstor Rojas**
-- Data Analyst specializing in public procurement operations
-- Experience with ChileCompra framework agreements and public tenders
-- Focus: Performance measurement, ML for demand forecasting, operational optimization
 
 ## 🎓 Key Achievements
 
@@ -222,7 +212,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, opportunities, or collaboration:
 - GitHub: [@nestor-rojas](https://github.com/nestor-rojas)
-- LinkedIn: [Your LinkedIn Profile]
+- LinkedIn: www.linkedin.com/in/néstor-rojas-bravo-249053327
 
 ---
 
