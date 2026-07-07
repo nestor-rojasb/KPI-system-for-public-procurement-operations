@@ -1,4 +1,4 @@
-# 📊 KPI System for Public Procurement Operations
+# KPI System for Public Procurement Operations
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -6,7 +6,7 @@
 
 A comprehensive KPI (Key Performance Indicator) system designed for operations teams in public procurement environments, specifically tailored for Chilean government suppliers working through ChileCompra.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements two distinct KPI systems developed to measure and optimize team performance in a high-volume procurement operation:
 
@@ -15,13 +15,13 @@ This project implements two distinct KPI systems developed to measure and optimi
 
 ### Key Features
 
-- ✅ Automated ticket complexity classification based on SKU counts
-- ✅ Real-time performance tracking with 100% reliable metrics
-- ✅ Analyst specialization detection and workload balancing
-- ✅ Weekly performance dashboards with actionable insights
-- ✅ Scalable architecture for multi-entity operations
+- Automated ticket complexity classification based on SKU counts
+- Real-time performance tracking with 100% reliable metrics
+- Analyst specialization detection and workload balancing
+- Weekly performance dashboards with actionable insights
+- Scalable architecture for multi-entity operations
 
-## 📈 Business Context
+## Business Context
 
 The system was designed for organizations operating as suppliers to the Chilean government through:
 - **Convenios Marco** (Framework Agreements)
@@ -29,12 +29,12 @@ The system was designed for organizations operating as suppliers to the Chilean 
 - Multiple operational entities with diverse product categories
 
 ### Operational Scope
-- 🏢 12+ legal entities
-- 📦 3 main business areas: Food, Cleaning Supplies, Large Tenders
-- 📊 High-volume ticket processing (100+ weekly per analyst)
-- 🔄 Complex SKU management (tickets ranging from 1 to 500+ SKUs)
+- 12+ legal entities
+- 3 main business areas: Food, Cleaning Supplies, Large Tenders
+- High-volume ticket processing (100+ weekly per analyst)
+- Complex SKU management (tickets ranging from 1 to 500+ SKUs)
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### Workload KPI System
 
@@ -67,7 +67,7 @@ Ticket Complexity Categories:
 2. **Average Registration Time** - Efficiency per invoice
 3. **Weekly Productivity Index** - Combined performance score
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -112,7 +112,7 @@ print(kpis)
 report = workload.generate_report(period='2024-W50')
 ```
 
-## 📊 Example Outputs
+## Example Outputs
 
 ### Workload Analysis Dashboard
 
@@ -138,7 +138,7 @@ Staff B         │   134    │  3.9 min │    102.1
 Staff C         │   118    │  4.5 min │     88.7
 ```
 
-## 🧪 Methodology
+## Methodology
 
 ### Design Principles
 
@@ -154,7 +154,7 @@ Staff C         │   118    │  4.5 min │     88.7
 - **Less is More**: 3 reliable KPIs > 5 questionable ones
 - **Recent Data Wins**: Current performance is the best predictor
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 kpi-system-chilecompra/
@@ -169,7 +169,7 @@ kpi-system-chilecompra/
 └── tests/                   # Unit and integration tests
 ```
 
-## 🔍 Use Cases
+## Use Cases
 
 This KPI system is ideal for:
 
@@ -179,7 +179,7 @@ This KPI system is ideal for:
 - **Team management** - Data-driven workload balancing
 - **Continuous improvement** - Track progress over time
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Python 3.8+** - Core programming language
 - **Pandas** - Data manipulation and analysis
@@ -188,20 +188,20 @@ This KPI system is ideal for:
 - **Streamlit** - Dashboard interface (optional)
 - **PostgreSQL/MySQL** - Database backend (production)
 
-## 🤝 Contributing
+## Contributing
 
 This is a professional portfolio project. While it's not open for direct contributions, feedback and suggestions are welcome through issues.
 
 
-## 🎓 Key Achievements
+## Key Achievements
 
-- ✅ Implemented KPI system across 12 operational entities
-- ✅ Enabled data-driven performance compensation decisions
-- ✅ Reduced subjective evaluation bias by 100%
-- ✅ Improved resource allocation efficiency
-- ✅ Foundation for ML-driven demand forecasting (Phase 2)
+- Implemented KPI system across 12 operational entities
+- Enabled data-driven performance compensation decisions
+- Reduced subjective evaluation bias by 100%
+- Improved resource allocation efficiency
+- Foundation for ML-driven demand forecasting (Phase 2)
 
-## 📧 Contact
+## Contact
 
 For questions, opportunities, or collaboration:
 - GitHub: [@nestor-rojas](https://github.com/nestor-rojas)
