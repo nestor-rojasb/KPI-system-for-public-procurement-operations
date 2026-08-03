@@ -293,13 +293,13 @@ python demo.py
 
 After setup:
 
-1. ✅ Run the demo to verify installation
-2. ✅ Review sample data structure
-3. ✅ Read KPI definitions in docs/
-4. ✅ Try with your own data
-5. ✅ Customize thresholds for your needs
-6. ✅ Build visualizations or reports
-7. ✅ Integrate with your systems
+1. Run the demo to verify installation
+2. Review sample data structure
+3. Read KPI definitions in docs/
+4. Try with your own data
+5. Customize thresholds for your needs
+6. Build visualizations or reports
+7. Integrate with your systems
 
 ---
 
