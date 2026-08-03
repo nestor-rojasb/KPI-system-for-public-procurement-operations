@@ -31,20 +31,20 @@ def demo_workload_analysis():
     analyzer = WorkloadAnalyzer()
     
     # Load sample data
-    print("📊 Loading sample ticket data...")
+    print(" Loading sample ticket data...")
     analyzer.load_data('data/sample/tickets_sample.csv')
     print(f"✓ Loaded {len(analyzer.tickets_df)} tickets")
     
     # Calculate KPIs
-    print("\n🔢 Calculating KPIs for Week 50, 2024...")
+    print("\n Calculating KPIs for Week 50, 2024...")
     kpis = analyzer.calculate_kpis(period='2024-W50')
     
     # Generate report
-    print("\n📋 PERFORMANCE REPORT:")
+    print("\n PERFORMANCE REPORT:")
     print(analyzer.generate_report(period='2024-W50'))
     
     # Show workload balance
-    print("\n⚖️  WORKLOAD BALANCE ANALYSIS:")
+    print("\n  WORKLOAD BALANCE ANALYSIS:")
     balance = analyzer.get_workload_balance()
     print(balance.to_string(index=False))
     
@@ -59,20 +59,20 @@ def demo_invoice_analysis():
     calculator = InvoiceKPICalculator()
     
     # Load sample data
-    print("📊 Loading sample invoice data...")
+    print(" Loading sample invoice data...")
     calculator.load_data('data/sample/invoices_sample.csv')
     print(f"✓ Loaded {len(calculator.invoices_df)} invoices")
     
     # Calculate KPIs
-    print("\n🔢 Calculating KPIs for Week 50, 2024...")
+    print("\n Calculating KPIs for Week 50, 2024...")
     kpis = calculator.calculate_kpis(period='2024-W50')
     
     # Generate report
-    print("\n📋 PERFORMANCE REPORT:")
+    print("\n PERFORMANCE REPORT:")
     print(calculator.generate_report(period='2024-W50', top_n=6))
     
     # Identify training needs
-    print("\n🎓 TRAINING RECOMMENDATIONS:")
+    print("\n TRAINING RECOMMENDATIONS:")
     training = calculator.identify_training_needs(threshold_percentile=25)
     if len(training) > 0:
         print(training.to_string(index=False))
@@ -92,7 +92,7 @@ def demo_individual_benchmark():
     
     # Benchmark a specific staff member
     staff_id = 'S001'
-    print(f"📊 Benchmarking {staff_id} against team averages...\n")
+    print(f" Benchmarking {staff_id} against team averages...\n")
     
     benchmark = calculator.benchmark_against_team(staff_id)
     
@@ -134,7 +134,7 @@ def main():
         print("  - Build a dashboard using src/visualization/")
         
     except Exception as e:
-        print(f"\n❌ Error during demo: {e}")
+        print(f"\n Error during demo: {e}")
         print("\nTroubleshooting:")
         print("  - Ensure you're running from the project root directory")
         print("  - Verify sample data exists in data/sample/")
